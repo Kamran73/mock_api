@@ -39,6 +39,16 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: [
+          IconButton(
+            onPressed: () {
+              setState(() {
+                getJokes = networkClient.getJokes();
+              });
+            },
+            icon: Icon(Icons.refresh),
+          ),
+        ],
         centerTitle: true,
         title: Text('Mock Api Test', style: context.textTheme.headlineMedium),
       ),
