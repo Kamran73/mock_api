@@ -1,0 +1,62 @@
+[
+  {
+    "type": "programming",
+    "setup": "What's the best thing about a Boolean?",
+    "punchline": "Even if you're wrong, you're only off by a bit.",
+    "id": 409
+  },
+  {
+    "type": "programming",
+    "setup": "Lady: How do I spread love in this cruel world?",
+    "punchline": "Random Dude: [...💘]",
+    "id": 58
+  },
+  {
+    "type": "general",
+    "setup": "Why did Sweden start painting barcodes on the sides of their battleships?",
+    "punchline": "So they could Scandinavian.",
+    "id": 313
+  },
+  {
+    "type": "general",
+    "setup": "Did you hear about the Viking who was reincarnated?",
+    "punchline": "He was Bjorn again",
+    "id": 392
+  },
+  {
+    "type": "general",
+    "setup": "Do I enjoy making courthouse puns?",
+    "punchline": "Guilty",
+    "id": 105
+  },
+  {
+    "type": "general",
+    "setup": "How many hipsters does it take to change a lightbulb?",
+    "punchline": "Oh, it's a really obscure number. You've probably never heard of it.",
+    "id": 139
+  },
+  {
+    "type": "general",
+    "setup": "What type of music do balloons hate?",
+    "punchline": "Pop music!",
+    "id": 261
+  },
+  {
+    "type": "general",
+    "setup": "Why did the rooster cross the road?",
+    "punchline": "He heard that the chickens at KFC were pretty hot.",
+    "id": 391
+  },
+  {
+    "type": "general",
+    "setup": "How does a dyslexic poet write?",
+    "punchline": "Inverse.",
+    "id": 132
+  },
+  {
+    "type": "general",
+    "setup": "Did you hear the news?",
+    "punchline": "FedEx and UPS are merging. They’re going to go by the name Fed-Up from now on.",
+    "id": 99
+  }
+]
