@@ -1,16 +1,16 @@
-# mock_api
+# Mock API in Flutter (with Dio)
 
-A new Flutter project.
+When building Flutter apps, sometimes the backend is still in progress or APIs may go down.  
+Instead of pausing development, you can **mock API responses** and keep moving forward.  
 
-## Getting Started
+This package demonstrates how to mock APIs in **Flutter** using the [`dio`](https://pub.dev/packages/dio) package and `MockInterceptor`.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
+- 🚀 Continue frontend development without waiting for backend
+- 🛠️ Mock success, error, or empty responses
+- 🔄 Switch between real and mock APIs easily
+- ✅ Great for testing different UI states
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
