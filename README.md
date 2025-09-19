@@ -14,3 +14,8 @@ This package demonstrates how to mock APIs in **Flutter** using the [`dio`](http
 - ✅ Great for testing different UI states
 
 ---
+
+## Demo
+# Notice, how on a single line change, API hits real endpoint otherwise returns Mock data.
+https://github.com/user-attachments/assets/ab0ba1f9-c40c-4447-9dd8-988fe8218d93
+
