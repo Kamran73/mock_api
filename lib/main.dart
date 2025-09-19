@@ -67,19 +67,17 @@ class _MyHomePageState extends State<MyHomePage> {
 
             if (snapshot.hasData) {
               final jokes = [...?snapshot.data];
-              return Flexible(
-                child: ListView.builder(
-                  itemCount: jokes.length,
-                  itemBuilder: (_, index) {
-                    final joke = jokes[index];
-                    return Card(
-                      child: ListTile(
-                        title: Text(joke.setup),
-                        subtitle: Text(joke.punchline),
-                      ),
-                    );
-                  },
-                ),
+              return ListView.builder(
+                itemCount: jokes.length,
+                itemBuilder: (_, index) {
+                  final joke = jokes[index];
+                  return Card(
+                    child: ListTile(
+                      title: Text(joke.setup),
+                      subtitle: Text(joke.punchline),
+                    ),
+                  );
+                },
               );
             }
 

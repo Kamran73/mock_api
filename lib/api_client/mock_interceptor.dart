@@ -36,6 +36,7 @@ class MockInterceptor extends Interceptor {
       // handler.reject(
       //   DioException(requestOptions: options),
       // );
+      // return;
 
       /// un-comment for sending server known response with status code
       // handler.reject(DioException(
@@ -50,6 +51,7 @@ class MockInterceptor extends Interceptor {
       //       },
       //       statusCode: 401,
       //     )));
+      //  return;
       debugPrint("Got mock response: $response");
       handler.resolve(Response(requestOptions: options, data: response));
     } else {
